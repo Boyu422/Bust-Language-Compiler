@@ -1,0 +1,16 @@
+// Bust Example 3:
+fn main() {
+    let f:i64;
+    f = 1;
+    let i:i64;
+    i = 1;
+    let n:i64;
+    print!("Write a number: ");
+    read_line(n);
+    while i < n {
+        f = f * i;
+        i = i + 1;
+    }
+    print!("Factorial: ");
+    print!(f);
+}

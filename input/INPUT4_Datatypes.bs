@@ -1,0 +1,12 @@
+//Bust Example 4:
+fn main() {
+	let FoundationYear:i64;
+	FoundationYear = -7000;
+	let Area:f64;
+	Area = 492.0;
+	let HDI:f64;
+	HDI = 0.871;
+	let CountryName:String;
+	CountryName = "Bulgary";
+	print!(CountryName);
+}

@@ -1,0 +1,11 @@
+// Bust Example 2: Volume of a sphere
+fn main() {
+      let pi:f64;
+      pi = 3.141592653589793;
+      let radius:f64;
+      print!("Radius of Sphere");
+      read_line(radius);
+      let volume:f64;
+      volume = 4.0 % 3.0 * pi * radius ^ 3;
+      print!(volume);
+}

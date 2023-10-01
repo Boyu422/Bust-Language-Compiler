@@ -1,0 +1,66 @@
+	###################################################
+	#                                                 #
+	#    ALGONQUIN         @@@@@@@         COLLEGE    #
+	#                  @@-----------@@                #
+	#               @@@@|  M O L D  |@@@@             #
+	#            @@@@@@@@-----------@@@@@@@@          #
+	#         @@@@@@@@@@@@@  @@@@@@@   @@@@@@@        #
+	#       @@@@@@@@@@@@@      @@@       @@@@@@       #
+	#     @@@@@@@    @@@@@    @@@@       @@@@@@@@     #
+	#    @@@@@@@       @@@@@ @@@@@@@    @@@@@@@@@@    #
+	#   @@@@@@@        @@@@@ @@@@@ @@@@@@    @@@@@@   #
+	#  @@@@@@@@@@    @@             @@@@      @@@@@@  #
+	#  @@@@@@@@@@@@@@@  @@@@@  @@@@  @@@@   @@    @@  #
+	# @@@@@@@@@@@@@@@   @@@@@ @@@@@   @@@@@@@@@    @@ #
+	# @@@@@      @@@@   @@@ @@@ @@@   @@@@    @@@@@@@ #
+	# @@@@        @@@@  @@@ @@@ @@@   @@@      @@@@@@ #
+	#  @@@@     @@@@@@@              @@@@@    @@@@@@  #
+	#  @@@@@@@@@@@     @@@  @@@   @@@    @@@@@@@@@@   #
+	#   @@@@@@@@@@@   @@@ @@@@@@ @@@@@    @@@@@@@@@   #
+	#    @@@@@@@@@@@@@@@ @@@@@@    @@@@@@@@@@@@@@@    #
+	#     @@@@@@@@@       @@@        @@@@@@@@@@@      #
+	#       @@@@@@         @@         @@@@@@@@@       #
+	#         @@@@@       @@@@@     @@@@@@@@@         #
+	#            @@@@@@@@@@@@@@@@@@@@@@@@@            #
+	#               @@@@@@@@@@@@@@@@@@@               #
+	#  COMPILERS        @@@@@@@@@@@        2023 - S   #
+	#                                                 #
+	###################################################
+
+[Option 'S': Starting SCANNER ....]
+
+[Debug mode: 0]
+Reading file INPUT0_Empty.bs ....Please wait
+
+Scanning source file...
+
+Token		Attribute
+----------------------------------
+SEOF_T		0	
+
+Printing string table...
+----------------------------------
+
+----------------------------------
+The tokens ERR_T appears 0 times in the file
+The tokens MNID_T appears 0 times in the file
+The tokens INL_T appears 0 times in the file
+The tokens STR_T appears 0 times in the file
+The tokens LPR_T appears 0 times in the file
+The tokens RPR_T appears 0 times in the file
+The tokens LBR_T appears 0 times in the file
+The tokens RBR_T appears 0 times in the file
+The tokens KW_T appears 0 times in the file
+The tokens EOS_T appears 0 times in the file
+The tokens RTE_T appears 0 times in the file
+The tokens SEOF_T appears 1 times in the file
+The tokens CMT_T appears 0 times in the file
+The tokens FLL_T appears 0 times in the file
+The tokens VAR_T appears 0 times in the file
+The tokens PER_T appears 0 times in the file
+The tokens REL_T appears 0 times in the file
+The tokens ARI_T appears 0 times in the file
+The tokens ASS_T appears 0 times in the file
+The tokens UND_T appears 0 times in the file
+The tokens LOG_T appears 0 times in the file
+The tokens COL_T appears 0 times in the file

@@ -1,0 +1,31 @@
+// Bust Example 5:
+fn main(){
+	let i:i64;
+	let a:f64;
+	let text:String;
+	a = a + 1.2;
+	let sum008:f64;
+	sum008 = 7.87050;
+	read_line(sum008);
+	i = 0;
+	while i < 32767 || i == 32767 {
+		i = i + 2;
+		a = a * i % 0.5;
+		sum008 = sum008 + a -1;
+	}
+	if text==""
+	{
+		text = "prog" + "ram";
+	}
+	else 
+	{
+		text = text + "ram";
+	}
+	print!("\* This is a program -:)-<-<-- \*");
+	print!(text);
+	if text != "program" && sum008==8.0 || i>10
+	{
+		print!(sum008);
+		print!();
+	}
+}

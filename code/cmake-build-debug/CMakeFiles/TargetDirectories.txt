@@ -1,0 +1,3 @@
+C:/Boyu345/A22/codeA22/cmake-build-debug/CMakeFiles/Bust.dir
+C:/Boyu345/A22/codeA22/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Boyu345/A22/codeA22/cmake-build-debug/CMakeFiles/rebuild_cache.dir

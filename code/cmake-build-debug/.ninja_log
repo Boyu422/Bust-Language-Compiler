@@ -1,0 +1,9 @@
+# ninja log v5
+1	75	7111721716738733	CMakeFiles/Bust.dir/Compilers.c.obj	53e1788600b02f8c
+5	158	7111721717259527	CMakeFiles/Bust.dir/Reader.c.obj	74176ff76684a360
+9	159	7111721717269571	CMakeFiles/Bust.dir/MainReader.c.obj	13a019fe2e8e164e
+13	115	7111721717119320	CMakeFiles/Bust.dir/MainScanner.c.obj	fb83bab2178e8cc6
+16	135	7111721717209476	CMakeFiles/Bust.dir/Scanner.c.obj	3d1b8a988de7ff10
+2	300	7111726648684912	build.ninja	95c8714288a4e1f9
+1	154	7111726652612507	CMakeFiles/Bust.dir/MainScanner.c.obj	fb83bab2178e8cc6
+23	157	7111726652637702	CMakeFiles/Bust.dir/Scanner.c.obj	3d1b8a988de7ff10
