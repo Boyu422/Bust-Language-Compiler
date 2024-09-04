@@ -1,44 +1,57 @@
-# Bust-Language-Compiler
-The project is designing and prototyping a compiler for the my own programming language called __"Bust"__.
-The purpose of the project is to build a programming language help the beginners to learn the basic concept of programming with simplified grammar and syntax.
-Currently, the project has already successfully implemented __reader, scanner, and parser__.
+# Bust Language Compiler
 
-## Project Specification
-The program is able to compile the program with  __".bs"__ extension. To do that, you can find and use the binary code under bin directory by command prompt with parameters of the compiler mode and .bs file.
-For example:
-./Bust.exe R Hello_World.bs to read all the characters from the .bs file
-./Bust.exe S Hello_World.bs to scan all the keywords from the .bs file
-./Bust.exe P Hello_World.bs to parse all the code from the .bs file
+The **Bust Language Compiler** is a project aimed at designing and prototyping a compiler for a custom programming language called **Bust**. This language is designed to help beginners learn the fundamental concepts of programming with simplified grammar and syntax. 
 
-## Project Design and Implementations
-So far, the project has successfully implemented the Reader, Scanner, and Parser for the compiler.
+The project currently has successfully implemented key components of the compiler: the **Reader**, **Scanner**, and **Parser**.
+
+## Project Overview
+
+The Bust compiler processes files with the `.bs` extension. You can use the compiled binary found in the `bin` directory to compile `.bs` files through the command line by specifying the mode of operation and the file.
+
+### Usage Examples
+- To **read** all characters from a `.bs` file:
+  ```bash
+  ./Bust.exe R Hello_World.bs
+  ```
+- To **scan** and identify keywords:
+  ```bash
+  ./Bust.exe S Hello_World.bs
+  ```
+- To **parse** the code and check for syntactic correctness:
+  ```bash
+  ./Bust.exe P Hello_World.bs
+  ```
+
+## Design and Implementation
 
 ### Reader
-The reader will dynamically allocate the memory to read all the characters from the Bust file, the status of reading such as stop reading will be determined by the Byte flag.
-![image](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Reader.png)
+The **Reader** component dynamically allocates memory to read all the characters from a Bust file. The reading process is controlled by a byte flag that determines when to stop reading.
+![Reader Component](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Reader.png)
 
 ### Scanner
-The Scanner will recognize all the keywords from .bs file such as print! by the regular expression, transition table, and automaton implementation. The scanner will keep going through every character and find its corresponding type until the end of the file.
-![image](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Scanner.png)
+The **Scanner** identifies all keywords within the `.bs` file, such as `print!`, using regular expressions, a transition table, and an automaton. The Scanner processes each character sequentially until the end of the file, categorizing them based on their type.
 
-__Regular Expression Design__
-![image](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Regular%20Expression.png)
+#### Regular Expression Design
+![Regular Expression](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Regular%20Expression.png)
 
-__Automaton Design__
-![image](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Automaton.png)
+#### Automaton Design
+![Automaton](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Automaton.png)
 
-__Transition Table Deisgn__
-![image](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Transition%20Table.png)
+#### Transition Table Design
+![Transition Table](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Transition%20Table.png)
 
 ### Parser
-The parser will analyze the lexical and syntactic correctness of all the scanned code recersivly. The errors from the code will be reported passing the correct syntax after parsing.
-![parser](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Parser.png)
+The **Parser** recursively analyzes the lexical and syntactic correctness of the scanned code. Any errors found during parsing are reported, while syntactically correct code is passed forward.
+![Parser Component](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Parser.png)
 
-## About project:
- - The project is C-based, all the implementations of the features are by C language
- - The project supports compilation with CMake, if you want to compile the program yourself, make sure CMake version is 3.8 or higher
- - If you are intersted in 'Bust' programming language, please check the documentations directories to see the detailed specification.
+## Project Details
+- The project is implemented in **C**.
+- It supports compilation via **CMake** (version 3.8 or higher is required).
+- Detailed specifications of the **Bust** language are available in the `documentations` directory.
 
-## Upcoming feature:
- - Implementation of the functionalities of keywords
+## Testing
+To test the functionality of the compiler, several Bust example files and BAT scripts are available under the `input` directory. You can use the provided BAT scripts (`A12`, `A22`, or `A32`) to test the **Reader**, **Scanner**, and **Parser**. Check the errors and outputs to evaluate the compilation results.
+![Testing Files](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/testing%20files.png)
 
+## Future Features
+- Implementation of the functionalities for Bust language keywords.
