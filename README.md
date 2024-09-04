@@ -30,6 +30,7 @@ The **Reader** component dynamically allocates memory to read all the characters
 
 ### Scanner
 The **Scanner** identifies all keywords within the `.bs` file, such as `print!`, using regular expressions, a transition table, and an automaton. The Scanner processes each character sequentially until the end of the file, categorizing them based on their type.
+![Scanner Component](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Scanner.png)
 
 #### Regular Expression Design
 ![Regular Expression](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/Regular%20Expression.png)
