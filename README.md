@@ -1,5 +1,5 @@
 # Bust Language Compiler
-
+![iamge](https://github.com/Boyu422/Bust-Language-Compiler/blob/main/iamges/logo.png)
 The **Bust Language Compiler** is a project aimed at designing and prototyping a compiler for a custom programming language called **Bust**. This language is designed to help beginners learn the fundamental concepts of programming with simplified grammar and syntax. 
 
 The project currently has successfully implemented key components of the compiler: the **Reader**, **Scanner**, and **Parser**.
